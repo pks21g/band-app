@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/band-app/static/css/main.5ced154d.css",
-    "main.js": "/band-app/static/js/main.b499ceca.js",
-    "static/media/disco-fighter.jpg": "/band-app/static/media/disco-fighter.481bb9420d27cc5f2fd2.jpg",
+    "main.css": "/band-app/static/css/main.d3896013.css",
+    "main.js": "/band-app/static/js/main.250d935d.js",
+    "static/media/europe.jpg": "/band-app/static/media/europe.4b9b74ef1db3a5ba14d9.jpg",
     "index.html": "/band-app/index.html",
-    "main.5ced154d.css.map": "/band-app/static/css/main.5ced154d.css.map",
-    "main.b499ceca.js.map": "/band-app/static/js/main.b499ceca.js.map"
+    "main.d3896013.css.map": "/band-app/static/css/main.d3896013.css.map",
+    "main.250d935d.js.map": "/band-app/static/js/main.250d935d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ced154d.css",
-    "static/js/main.b499ceca.js"
+    "static/css/main.d3896013.css",
+    "static/js/main.250d935d.js"
   ]
 }

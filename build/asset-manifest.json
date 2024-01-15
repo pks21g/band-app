@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pks21g/band-app/static/css/main.e089aead.css",
-    "main.js": "/pks21g/band-app/static/js/main.715a7c26.js",
-    "static/media/disco-fighter.jpg": "/pks21g/band-app/static/media/disco-fighter.481bb9420d27cc5f2fd2.jpg",
-    "index.html": "/pks21g/band-app/index.html",
-    "main.e089aead.css.map": "/pks21g/band-app/static/css/main.e089aead.css.map",
-    "main.715a7c26.js.map": "/pks21g/band-app/static/js/main.715a7c26.js.map"
+    "main.css": "/static/css/main.cd3b93c8.css",
+    "main.js": "/static/js/main.a37ab837.js",
+    "static/media/disco-fighter.jpg": "/static/media/disco-fighter.481bb9420d27cc5f2fd2.jpg",
+    "index.html": "/index.html",
+    "main.cd3b93c8.css.map": "/static/css/main.cd3b93c8.css.map",
+    "main.a37ab837.js.map": "/static/js/main.a37ab837.js.map"
   },
   "entrypoints": [
-    "static/css/main.e089aead.css",
-    "static/js/main.715a7c26.js"
+    "static/css/main.cd3b93c8.css",
+    "static/js/main.a37ab837.js"
   ]
 }

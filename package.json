@@ -2,7 +2,7 @@
   "name": "band-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pks21g.github.io/band-app",
+  "homepage": "https://pks21g.github.io/pks21g/band-app",
   "main": "index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

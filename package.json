@@ -15,6 +15,10 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pks21g/meta-capstone"
+  },
   "scripts": {
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build",

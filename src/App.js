@@ -10,11 +10,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Nav />}>
-          <Route path='/' index element={<Home />} />
-          <Route path="/live" element={<Live />} />
-          <Route path="/store" element={<Store />} />
-          <Route path="/about" element={<About />} />
+        <Route path="/band-app" exact element={<Nav />}>
+          <Route path='/band-app' exact element={<Home />} />
+          <Route path="/band-app/live" exact element={<Live />} />
+          <Route path="/band-app/store" exact element={<Store />} />
+          <Route path="/band-app/about" exact element={<About />} />
         </Route>
       </Routes>
     </BrowserRouter>

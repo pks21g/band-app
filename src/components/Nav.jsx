@@ -7,16 +7,16 @@ const Nav = () => {
       <nav>
         <ul>
         <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/band-app">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/live">Live</NavLink>
+            <NavLink to="/band-app/live">Live</NavLink>
           </li>
           <li>
-            <NavLink to="/store">Store</NavLink>
+            <NavLink to="/band-app/store">Store</NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/band-app/about">About</NavLink>
           </li>
         </ul>
       </nav>

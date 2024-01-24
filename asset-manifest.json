@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/band-app/static/css/main.06e4fd58.css",
-    "main.js": "/band-app/static/js/main.37ede154.js",
+    "main.css": "/band-app/static/css/main.96b4b631.css",
+    "main.js": "/band-app/static/js/main.59bde851.js",
+    "static/media/hoodie.png": "/band-app/static/media/hoodie.1e4dc9f84974a395633c.png",
     "static/media/europe.jpg": "/band-app/static/media/europe.4b9b74ef1db3a5ba14d9.jpg",
     "static/media/cap.jpeg": "/band-app/static/media/cap.78333932a9b0fa2b52a7.jpeg",
     "static/media/black-tee.jpeg": "/band-app/static/media/black-tee.a3a8b25d150e94d1515e.jpeg",
     "index.html": "/band-app/index.html",
-    "main.06e4fd58.css.map": "/band-app/static/css/main.06e4fd58.css.map",
-    "main.37ede154.js.map": "/band-app/static/js/main.37ede154.js.map"
+    "main.96b4b631.css.map": "/band-app/static/css/main.96b4b631.css.map",
+    "main.59bde851.js.map": "/band-app/static/js/main.59bde851.js.map"
   },
   "entrypoints": [
-    "static/css/main.06e4fd58.css",
-    "static/js/main.37ede154.js"
+    "static/css/main.96b4b631.css",
+    "static/js/main.59bde851.js"
   ]
 }

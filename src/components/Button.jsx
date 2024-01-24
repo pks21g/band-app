@@ -4,7 +4,7 @@ export const
 Button = ({props}) => {
   return (
     <div>
-      <button>{props}</button>
+      <button value={props}></button>
     </div>
   )
 }

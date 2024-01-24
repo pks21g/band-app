@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Button } from "../components/Button";
 import Year21 from "../components/Year21";
 import Year20 from "../components/Year20";
 import Year23 from "../components/Year23";
@@ -8,7 +7,7 @@ import Year19 from "../components/Year19";
 
 const Live = ({ props }) => {
   const currentYear = new Date().getFullYear();
-  const [year, setYear] = useState(currentYear);
+  const [year, setYear] = useState("");
   const years = [];
   for (let i = currentYear; i >= 2019; i--) {
     years.push(i);
@@ -26,6 +25,7 @@ const Live = ({ props }) => {
           );
         })}
       </select>
+
       {year === "2019" && <Year19 />}
       {year === "2020" && <Year20 />}
       {year === "2021" && <Year21 />}

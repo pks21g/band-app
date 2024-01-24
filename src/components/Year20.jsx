@@ -9,7 +9,7 @@ const Year20 = () => {
             <span className="venu-date">{data.date}</span>
             <span className="venu">{data.venue}</span>
             <span className="country">
-              {data.city},{data.coutry}
+              {data.city},{data.country}
             </span>
           </div>
         );

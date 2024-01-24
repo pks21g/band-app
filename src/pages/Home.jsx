@@ -1,7 +1,7 @@
 import { Banner } from "../components/Banner";
 import { Cd } from "../components/Cd";
 import Outnow from "../components/Outnow";
-import Footer from "../components/Footer";
+
 
 const Home = () => {
   return (

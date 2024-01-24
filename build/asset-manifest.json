@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/band-app/static/css/main.cb8a00f2.css",
-    "main.js": "/band-app/static/js/main.743b7fd9.js",
+    "main.css": "/band-app/static/css/main.06e4fd58.css",
+    "main.js": "/band-app/static/js/main.37ede154.js",
     "static/media/europe.jpg": "/band-app/static/media/europe.4b9b74ef1db3a5ba14d9.jpg",
+    "static/media/cap.jpeg": "/band-app/static/media/cap.78333932a9b0fa2b52a7.jpeg",
+    "static/media/black-tee.jpeg": "/band-app/static/media/black-tee.a3a8b25d150e94d1515e.jpeg",
     "index.html": "/band-app/index.html",
-    "main.cb8a00f2.css.map": "/band-app/static/css/main.cb8a00f2.css.map",
-    "main.743b7fd9.js.map": "/band-app/static/js/main.743b7fd9.js.map"
+    "main.06e4fd58.css.map": "/band-app/static/css/main.06e4fd58.css.map",
+    "main.37ede154.js.map": "/band-app/static/js/main.37ede154.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb8a00f2.css",
-    "static/js/main.743b7fd9.js"
+    "static/css/main.06e4fd58.css",
+    "static/js/main.37ede154.js"
   ]
 }

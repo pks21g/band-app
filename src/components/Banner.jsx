@@ -1,25 +1,24 @@
 import React from "react";
 import "../App.css";
 import bannerImage from "../assets/europe.jpg";
-import { NavLink } from "react-router-dom";
 export const Banner = () => {
   return (
-    <>
-      <section>
-        <div class="banner">
-          <div class="album container">
-            <div class="album-text">
-              <h1 class="band-name">DISCO</h1>
-              <h1 class="band-name">FIGHTER</h1>
-              <a href="/band-app" class="album-btn">Buy/Listen</a>
+    
+      <section id="banner">
+        <div className="banner">
+          <div className="album container">
+            <div className="album-text">
+              <h1 className="band-name">DISCO</h1>
+              <h1 className="band-name">FIGHTER</h1>
+              <a href="/band-app" className="album-btn">Buy/Listen</a>
             </div>
-            <div class="album-image">
+            <div className="album-image">
               <img src={bannerImage} alt="" />
             </div>
           </div>
         </div>
       </section>
-    </>
+    
   );
 };
 export default Banner;

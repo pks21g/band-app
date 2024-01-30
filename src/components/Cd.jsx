@@ -15,7 +15,7 @@ export const Cd = () => {
             </div>
             <hr />
             <div className="flex sale">
-              <Link to={"/band-app/store"} target="_blank">
+              <Link to={"/band-app/music"}>
                 Standard LP
                 <ArrowUpRight size={25} weight="bold" />
               </Link>
@@ -31,7 +31,7 @@ export const Cd = () => {
             </div>
             <hr />
             <div className="flex">
-              <Link to={"/band-app/store"} target="_blank">
+              <Link to={"/band-app/music"}>
                 CD
                 <ArrowUpRight size={25} weight="bold" />
               </Link>
@@ -47,7 +47,7 @@ export const Cd = () => {
             </div>
             <hr />
             <div className="flex">
-              <Link href="/band-app/store" target="_blank">
+              <Link to={"/band-app/music"}>
                 Cassette
                 <ArrowUpRight size={25} weight="bold" />
               </Link>

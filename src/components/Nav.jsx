@@ -3,7 +3,9 @@ const Nav = () => {
   return (
     <>
       <header>
-        <h1>Disco Fighter</h1>
+        <NavLink to="/band-app" className="logo">
+          <h1>Disco Fighter</h1>
+        </NavLink>
         <nav>
           <ul>
             <li>
@@ -13,7 +15,7 @@ const Nav = () => {
               <NavLink to="/band-app/live">Live</NavLink>
             </li>
             <li>
-              <NavLink to="/band-app/store" target="_blank">Store</NavLink>
+              <NavLink to="/band-app/store">Store</NavLink>
             </li>
             <li>
               <NavLink to="/band-app/about">About</NavLink>

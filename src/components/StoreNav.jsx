@@ -4,7 +4,9 @@ import { ShoppingCart, User } from "phosphor-react";
 const StoreNav = () => {
   return (
     <div className="storenav">
-      <h1>Disco Fighter</h1>
+      <Link to="/band-app" className="logo">
+        <h1>Disco Fighter</h1>
+      </Link>
       <nav className="storenav-links">
         <Link to="/band-app/store">Store Home</Link>
         <Link to="/band-app/music">Music</Link>

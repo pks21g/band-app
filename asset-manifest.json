@@ -1,20 +1,14 @@
 {
   "files": {
-    "main.css": "/band-app/static/css/main.ea3c3b7b.css",
-    "main.js": "/band-app/static/js/main.bcef7c84.js",
-    "static/media/hoodie.png": "/band-app/static/media/hoodie.1e4dc9f84974a395633c.png",
-    "static/media/europe.jpg": "/band-app/static/media/europe.4b9b74ef1db3a5ba14d9.jpg",
-    "static/media/cap.jpeg": "/band-app/static/media/cap.78333932a9b0fa2b52a7.jpeg",
-    "static/media/clock.jpeg": "/band-app/static/media/clock.fa32d203958936151bc9.jpeg",
-    "static/media/black-tee.jpeg": "/band-app/static/media/black-tee.a3a8b25d150e94d1515e.jpeg",
-    "static/media/mug.jpeg": "/band-app/static/media/mug.ebd5ea29cbb18983100b.jpeg",
-    "static/media/keyring.jpeg": "/band-app/static/media/keyring.9df93296ca1bfd493b5a.jpeg",
-    "index.html": "/band-app/index.html",
-    "main.ea3c3b7b.css.map": "/band-app/static/css/main.ea3c3b7b.css.map",
-    "main.bcef7c84.js.map": "/band-app/static/js/main.bcef7c84.js.map"
+    "main.css": "/pks21g/band-app/static/css/main.e089aead.css",
+    "main.js": "/pks21g/band-app/static/js/main.715a7c26.js",
+    "static/media/disco-fighter.jpg": "/pks21g/band-app/static/media/disco-fighter.481bb9420d27cc5f2fd2.jpg",
+    "index.html": "/pks21g/band-app/index.html",
+    "main.e089aead.css.map": "/pks21g/band-app/static/css/main.e089aead.css.map",
+    "main.715a7c26.js.map": "/pks21g/band-app/static/js/main.715a7c26.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea3c3b7b.css",
-    "static/js/main.bcef7c84.js"
+    "static/css/main.e089aead.css",
+    "static/js/main.715a7c26.js"
   ]
 }

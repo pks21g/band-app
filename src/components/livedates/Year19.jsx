@@ -1,9 +1,9 @@
-import { year_2023 } from "../data/years";
+import { year_2019 } from "../../data/years";
 
-const Year23 = () => {
+const Year19 = () => {
   return (
     <div className="dates">
-      {year_2023.map((data) => {
+      {year_2019.map((data) => {
         return (
           <div key={data.id} className="date">
             <span className="venu-date">{data.date}</span>
@@ -18,4 +18,4 @@ const Year23 = () => {
   );
 };
 
-export default Year23;
+export default Year19;

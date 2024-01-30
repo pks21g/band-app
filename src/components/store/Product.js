@@ -12,7 +12,9 @@ export const Product = (props) => {
               <img src={t.image} alt=""></img>
               <h5>{t.description}</h5>
               <h4>{t.price}</h4>
-              <button className="shop-btn">Order Now</button>
+              <button className="shop-btn" onClick={() => {}}>
+                Order Now
+              </button>
             </div>
           );
         })}

@@ -1,12 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
 import Live from "./pages/Live";
 import Home from "./pages/Home";
 import { Store } from "./pages/Store";
-import Nav from "./components/Nav";
-import About from "./components/About";
-import Footer from "./components/Footer";
-import StoreNav from "./components/StoreNav";
+import Nav from "./components/global/Nav";
+import About from "./pages/About";
+import Footer from "./components/global/Footer";
 import { Cart } from "./components/store/Cart";
 import { Login } from "./components/store/Login";
 import { Music } from "./components/store/Music";
@@ -22,31 +20,11 @@ function App() {
           <Route path="/band-app/live" exact element={<Live />} />
           <Route path="/band-app/about" exact element={<About />} />
           <Route path="/band-app/store" exact element={<Store />} />
-          <Route
-            path="/band-app/shopping-cart"
-            exact
-            element={<Cart />}
-          />
-          <Route
-            path="/band-app/login"
-            exact
-            element={<Login />}
-          />
-           <Route
-            path="/band-app/music"
-            exact
-            element={<Music />}
-          />
-          <Route
-            path="/band-app/apparel"
-            exact
-            element={<Apparel />}
-          />
-          <Route
-            path="/band-app/accessories"
-            exact
-            element={<Accessories />}
-          />
+          <Route path="/band-app/shopping-cart" exact element={<Cart />} />
+          <Route path="/band-app/login" exact element={<Login />} />
+          <Route path="/band-app/music" exact element={<Music />} />
+          <Route path="/band-app/apparel" exact element={<Apparel />} />
+          <Route path="/band-app/accessories" exact element={<Accessories />} />
         </Route>
       </Routes>
 

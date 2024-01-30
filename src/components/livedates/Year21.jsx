@@ -1,4 +1,4 @@
-import { year_2021 } from "../data/years";
+import { year_2021 } from "../../data/years";
 
 const Year21 = () => {
   return (

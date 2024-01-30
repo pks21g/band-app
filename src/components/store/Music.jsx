@@ -1,6 +1,6 @@
 import React from "react";
-import StoreNav from "../StoreNav";
-import { Product } from "../Product";
+import StoreNav from "./StoreNav";
+import { Product } from "./Product";
 import { music } from "../../data/products";
 
 export const Music = () => {
@@ -9,7 +9,7 @@ export const Music = () => {
       <StoreNav />
 
       <div className="component">
-        <Product data={music} heading="Music"/>
+        <Product data={music} heading="Music" />
       </div>
     </>
   );

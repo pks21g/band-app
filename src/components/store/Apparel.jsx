@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import StoreNav from "../StoreNav";
-import { Product } from "../Product";
+import StoreNav from "./StoreNav";
+import { Product } from "./Product";
 import { tshirts } from "../../data/products";
 
 export const Apparel = () => {
@@ -12,7 +12,7 @@ export const Apparel = () => {
   return (
     <div className="component">
       <StoreNav />
-      <Product data={tshirts} heading="Apparel"/>
+      <Product data={tshirts} heading="Apparel" />
     </div>
   );
 };

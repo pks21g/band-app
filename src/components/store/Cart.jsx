@@ -1,5 +1,5 @@
 import React from 'react'
-import StoreNav from '../StoreNav'
+import StoreNav from './StoreNav'
 
 export const Cart = () => {
   return (

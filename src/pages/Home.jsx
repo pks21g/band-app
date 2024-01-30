@@ -1,6 +1,8 @@
-import { Banner } from "../components/Banner";
-import { Cd } from "../components/Cd";
-import Outnow from "../components/Outnow";
+import { Banner } from "../components/home/Banner";
+import { Cd } from "../components/home/Cd";
+import Outnow from "../components/home/Outnow";
+import Rest from "../components/home/Rest";
+import StorePerv from "../components/home/StorePerv";
 
 
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
       <Banner />
       <Outnow />
       <Cd />
+      <StorePerv />
+      <Rest />
     </div>
   );
 };

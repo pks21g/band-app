@@ -1,19 +1,20 @@
 import React from "react";
-import { tshirts } from "../data/products";
+import { tshirts, accessories, music } from "../data/products";
+import StoreNav from "../components/StoreNav";
+import { Product } from "../components/Product";
 
 export const Store = () => {
   return (
-    <div className="products">
-      {tshirts.map((t) => {
-        return (
-          <div className="product" key={t.id}>
-            <img src={t.image} alt=""></img>
-            <h5>{t.description}</h5>
-            <h4>{t.price}</h4>
-            <button className="shop-btn">Order Now</button>
-          </div>
-        );
-      })}
+    <>
+    <StoreNav />
+    <div className="store">
+    <Product data={tshirts} heading="Apparel"/>
+    <Product data={accessories} heading="Accessories"/>
+    <Product data={music} heading="Music"/>
     </div>
+    </>
+    
+
+    
   );
 };

@@ -45,7 +45,7 @@ body {
   margin-top: 30px;
 }
 :root {
-  --header-font-size: 1.5rem;
+  --header-font-size: 1.2rem;
   --primary-color: #1d1d1b;
   --background-color: #a0a081;
 }
@@ -57,7 +57,7 @@ img {
 /* --------------------------------------------------------------- */
 
 /* header/navigation */
-header {
+header, .storenav {
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -71,15 +71,15 @@ header {
   z-index: 100;
   border-bottom: 2px solid rgba(109, 109, 84, 0.1);
 }
-header h1 {
+header h1, .storenav h1 {
   width: fit-content;
 }
-ul {
+ul, .storenav-links {
   display: flex;
   list-style-type: none;
   gap: 40px;
 }
-li a {
+li a, .storenav-links a {
   text-decoration: none;
   font-size: var(--header-font-size);
   font-weight: 600;
@@ -223,10 +223,10 @@ hr {
 .flex .sale {
   position: relative;
 }
-.flex i {
+/* .flex i {
   transform: rotate(45deg);
   margin-left: 10px;
-}
+} */
 
 .flex > a {
   text-decoration: none;
@@ -307,7 +307,7 @@ select option {
 }
 
 .footer {
-  /* margin-top: 100px; */
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -315,16 +315,31 @@ select option {
   /* position:relative;
   bottom:0; */
 }
+.product-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top:80px;
+  
+}
+
+.store{
+  margin-top: 150px;
+}
+
 
 .products {
-  margin-top: 150px;
+  margin:40px auto;
   /* height: 100svh; */
   display: flex;
-  justify-content: space-around;
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
   padding: 10px;
   flex-wrap: wrap;
-  gap: 40px;
+  position: relative;
+  gap: 60px;
+  
 }
 .product {
   width: 320px;
@@ -368,7 +383,10 @@ select option {
   color: #a0a07c;
   background-color: black;
 }
-
+.user{
+  display: flex;
+  gap:10px;
+}
 .about {
   width: 100%;
   display: flex;
@@ -392,6 +410,16 @@ select option {
 .about h1,
 .about p {
   max-width: 700px;
+}
+
+.component{
+  display: flex;
+  position: relative;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  top:50px;
 }
 
 @media (max-width:800px){

@@ -13,7 +13,7 @@ const Nav = () => {
               <NavLink to="/band-app/live">Live</NavLink>
             </li>
             <li>
-              <NavLink to="/band-app/store">Store</NavLink>
+              <NavLink to="/band-app/store" target="_blank">Store</NavLink>
             </li>
             <li>
               <NavLink to="/band-app/about">About</NavLink>

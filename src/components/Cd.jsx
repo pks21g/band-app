@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React from "react";
+import { ArrowUpRight } from "phosphor-react";
+import { Link } from "react-router-dom";
 export const Cd = () => {
   return (
     <>
-    <section className="container cd">
+      <section className="container cd">
         <div className="grid-3">
           <div className="cd-item">
             <div className="cd-image">
@@ -14,8 +15,10 @@ export const Cd = () => {
             </div>
             <hr />
             <div className="flex sale">
-              <a href="">Standard LP</a>
-              <i className="fa-solid fa-arrow-up"></i>
+              <Link to={"/band-app/store"} target="_blank">
+                Standard LP
+                <ArrowUpRight size={25} weight="bold" />
+              </Link>
             </div>
           </div>
 
@@ -28,8 +31,10 @@ export const Cd = () => {
             </div>
             <hr />
             <div className="flex">
-              <a href="">CD</a>
-              <i className="fa-solid fa-arrow-up"></i>
+              <Link to={"/band-app/store"} target="_blank">
+                CD
+                <ArrowUpRight size={25} weight="bold" />
+              </Link>
             </div>
           </div>
 
@@ -42,12 +47,14 @@ export const Cd = () => {
             </div>
             <hr />
             <div className="flex">
-              <a href="">Cassette</a>
-              <i className="fa-solid fa-arrow-up"></i>
+              <Link href="/band-app/store" target="_blank">
+                Cassette
+                <ArrowUpRight size={25} weight="bold" />
+              </Link>
             </div>
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};

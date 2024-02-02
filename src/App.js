@@ -11,25 +11,26 @@ import { Music } from "./components/store/Music";
 import { Apparel } from "./components/store/Apparel";
 import { Accessories } from "./components/store/Accessories";
 import StoreNav from "./components/store/StoreNav";
+import { Fragment } from "react";
 
 function App() {
   const location = useLocation();
-  const paths = ['/band-app', '/band-app/live']
   return (
-    <>
-
-      {location.pathname === "/band-app/store" || "/band-app/music" || "/band-app/apparel" ? (
+    <div className="App">
+      {location.pathname === "/band-app/store" ||
+      "/band-app/music" ||
+      "/band-app/apparel" ? (
         <StoreNav />
       ) : (
         <Nav />
-      
       )}
-      {location.pathname === "/band-app" || "/band-app/live" || "/band-app/about" ? (
+      {location.pathname === "/band-app" ||
+      "/band-app/live" ||
+      "/band-app/about" ? (
         <Nav />
       ) : (
         // <StoreNav />
-""
-      
+        ""
       )}
       <Routes>
         {/* <Route
@@ -48,9 +49,8 @@ function App() {
         <Route path="/band-app/accessories" exact element={<Accessories />} />
         {/* </Route> */}
       </Routes>
-
-      <Footer />
-    </>
+         <Footer />
+    </div>
   );
 }
 

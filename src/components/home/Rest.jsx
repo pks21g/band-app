@@ -22,7 +22,7 @@ const Rest = () => {
               </Link>
             </div>
           </div>
-          <div className="shop-item">
+          <div Name="shop-item">
             <img
               src="https://source.unsplash.com/a-pair-of-key-chains-with-a-name-tag-DJ60cnp2snE"
               alt=""
@@ -78,21 +78,21 @@ const Rest = () => {
           <div className="video">
             <iframe
               src="https://www.youtube.com/embed/7eMoo0rV7tE"
-              frameborder="0"
+              frameBorder="0"
               title="Cover"
             ></iframe>
           </div>
           <div className="video">
             <iframe
               src="https://www.youtube.com/embed/7eMoo0rV7tE"
-              frameborder="0"
+              frameBorder="0"
               title="Cover"
             ></iframe>
           </div>
           <div className="video">
             <iframe
               src="https://www.youtube.com/embed/7eMoo0rV7tE"
-              frameborder="0"
+              frameBorder="0"
               title="Cover"
             ></iframe>
           </div>
@@ -111,7 +111,7 @@ const Rest = () => {
           <h2 className="news-heading">Get the latest news</h2>
           <div className="form-group">
             <div>
-              <label for="fname">First Name*</label>
+              <label htmlFor="fname">First Name*</label>
             </div>
             <div>
               <input
@@ -119,13 +119,13 @@ const Rest = () => {
                 id="fname"
                 placeholder="First Name"
                 required
-                minlength="3"
+                minLength="3"
               />
             </div>
           </div>
           <div className="form-group">
             <div>
-              <label for="lname">Last Name*</label>
+              <label htmlFor="lname">Last Name*</label>
             </div>
 
             <div>
@@ -134,14 +134,14 @@ const Rest = () => {
                 id="lname"
                 placeholder="Last Name"
                 required
-                minlength="3"
+                minLength="3"
               />
             </div>
           </div>
 
           <div className="form-group">
             <div>
-              <label for="email">Email*</label>
+              <label htmlFor="email">Email*</label>
             </div>
             <div>
               <input type="email" id="email" placeholder="Email" required />
@@ -150,7 +150,7 @@ const Rest = () => {
 
           <div className="form-group">
             <div>
-              <label for="country-list">Country*</label>
+              <label htmlFor="country-list">Country*</label>
             </div>
             <div>
               <select id="country-list">
@@ -164,8 +164,10 @@ const Rest = () => {
           <div className="form-group">
             <div className="mailing-list">
               <p>
-                By subscribing to the mailing list you agree to the terms of use
-                of the Disco Fighter' Newsletter
+                <b>
+                  By subscribing to the mailing list you agree to the
+                  <a href="#" className="term"> Terms of Use</a> of the Disco Fighter's Newsletter
+                </b>
               </p>
               <a
                 href=""

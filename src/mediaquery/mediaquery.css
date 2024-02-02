@@ -1,0 +1,137 @@
+@media (max-width: 620px) {
+  nav{
+    background-color: rgba(14, 9, 9, 0.3);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .album {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto 50px;
+  }
+  .navbar .flex {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navbar ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  .navbar h1 {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  .navbar li a {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .album {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .album-text h1 {
+    font-size: 2rem;
+  }
+
+  .cd .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shop .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .videos {
+    width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+  }
+  .videos .grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .news {
+    height: auto;
+  }
+  .from {
+    height: auto;
+  }
+  .form .news-heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  div.mailing-list {
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 621px) and (max-width: 930px) {
+  .navbar {
+    height: 140px;
+    background-color: black;
+  }
+  .navbar .flex {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    padding: 10px;
+  }
+  .navbar ul a {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+  .navbar h1 {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .album {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .album-text h1 {
+    font-size: 3rem;
+  }
+
+  .cd .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shop .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .videos .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

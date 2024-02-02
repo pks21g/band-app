@@ -8,10 +8,15 @@
 }
 body {
   margin: 0;
-  display: block;
-  position: relative;
   font-family: "Inter", sans-serif;
   background-color: var(--background-color);
+}
+.App {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  /* gap:40px; */
 }
 .logo h1:hover {
   color: rgba(29, 27, 27, 0.2);
@@ -79,19 +84,24 @@ header,
   z-index: 1000; */
   border-bottom: 2px solid rgba(109, 109, 84, 0.1);
 }
-.navheader{
-  display: block;
-}
-.navigation.active{
-  display: none;
+.a {
+  color: white;
 }
 
-.storenav{
+.term {
+  border-bottom: 1px solid black;
+}
+.term:hover {
+  color: rgba(3, 21, 35, 0.4);
+  border-bottom: 1px solid rgba(3, 21, 35, 0.4);
+}
+
+.storenav {
   display: none;
   position: fixed;
   top: 0;
   left: 0;
-  z-index:  10000000;
+  z-index: 10000000;
 }
 header h1,
 .storenav h1 {
@@ -111,11 +121,6 @@ li a,
 }
 li a:hover {
   border-bottom: 2px solid var(--primary-color);
-}
-
-li a.active {
-  /* color: brown; */
-  border-bottom: 2px solid brown;
 }
 
 h1,
@@ -188,15 +193,32 @@ a {
 }
 
 .out-now {
+  width: 100%;
+  height:500px;
+  position: relative;
+  z-index: 100000;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  /* margin-top: 50px; */
   font-size: 3rem;
   letter-spacing: -0.2rem;
   line-height: 3.1rem;
   /* margin-top: 100px; */
+  background-color: rgba(137, 3, 3, 0.1);
+  box-shadow: 3px 3px 3px rgba(168, 170, 171, 0.9),
+    -4px -4px 4px rgba(220, 236, 248, 0.1);
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  /* transform: rotate(3deg); */
+  /* margin: 50px auto; */
+}
+
+hr {
+  border: 1.5px solid #1d1d1b;
 }
 
 .out-now .band-name {
@@ -334,13 +356,12 @@ select option {
 }
 
 .footer {
-  margin-top: 100px;
+  height: 100px;
+  margin-top: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 60px;
-  /* position:relative;
-  bottom:0; */
+  align-items: flex-end;
+  /* padding:20px 0; */
 }
 .product-list {
   display: flex;
@@ -351,8 +372,8 @@ select option {
 }
 
 .store {
-  position: relative;
-  top: 130px;
+  /* position: relative; */
+  margin-top: 50px;
 }
 
 .products {
@@ -418,7 +439,7 @@ select option {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 50px;
   /* max-width: 700px; */
 }
 .about-content {
@@ -511,7 +532,7 @@ select option {
 /* live date sections */
 
 .live {
-  margin-top: 100px;
+  margin-top: 50px;
   flex-direction: column;
   gap: 30px;
 }

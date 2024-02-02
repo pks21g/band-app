@@ -73,11 +73,25 @@ header,
   padding: 0 50px;
   width: 100%;
   background-color: var(--background-color);
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; */
+  border-bottom: 2px solid rgba(109, 109, 84, 0.1);
+}
+.navheader{
+  display: block;
+}
+.navigation.active{
+  display: none;
+}
+
+.storenav{
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
-  border-bottom: 2px solid rgba(109, 109, 84, 0.1);
+  z-index:  10000000;
 }
 header h1,
 .storenav h1 {
@@ -114,13 +128,11 @@ a {
 /* banner */
 #banner-sec {
   display: flex;
-  height: calc(100svh - 80px);
-  position: relative;
-  top: 80px;
+  /* margin: 80px 0 auto; */
 }
 .banner {
   width: 100vw;
-  height: 100%;
+  height: calc(100svh - 80px);
   display: flex;
   justify-content: center;
   align-items: center;

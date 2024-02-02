@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import { ShoppingCart, User } from "phosphor-react";
+import Headroom from 'react-headroom'
 
 const StoreNav = () => {
   return (
+    <>
+    {/* <Headroom> */}
     <div className="storenav">
       <Link to="/band-app" className="logo">
         <h1>Disco Fighter</h1>
@@ -22,6 +25,8 @@ const StoreNav = () => {
         </div>
       </nav>
     </div>
+    {/* </Headroom> */}
+    </>
   );
 };
 

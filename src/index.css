@@ -194,7 +194,7 @@ a {
 
 .out-now {
   width: 100%;
-  height:500px;
+  height: 500px;
   position: relative;
   z-index: 100000;
   display: flex;
